@@ -1,0 +1,275 @@
+
+
+/* LEIA-ME/READ ME
+Este é um projeto original de portfólio que consite em uma página web de um museum de arte barroca. Os recuros utilizados na página são: HTML, CSS e Bottstrap// This is an original portfolio project consisting of a Baroque art museum web page. The resources used in its cration were: HTML, CSS and Bootstrap
+Criador do projeto/Project creator: Marcos Guimarães Barreiros*/
+
+
+
+
+
+body {
+    
+    background-color: #fff;
+    background-image: url('../Imagens/the_creation_of_adam-62533.jpg');
+    
+}
+
+a {
+    text-decoration: none;
+}
+/*HEADER*/
+.container-header {
+    padding-bottom: 0%;
+    color: blanchedalmond;
+    background-color:black;
+    background-image: url('../Imagens/rembrandtheader.jpg');
+
+}
+.container-header .display-1 {
+    margin-left: 10%;
+}
+/* NAVBAR */
+
+#navbar {
+   
+    color: white;
+    background-color: blanchedalmond;
+    font-size: 1.5rem;
+   padding-bottom: 5%;
+}
+
+
+#navbar a {
+    width: 50px;
+    margin-left: 5%;
+    margin-right: 5%;
+   
+    margin-top: 5%;
+
+
+    color: #444;
+    padding-bottom: 40px;
+}
+
+#navbar a:hover {
+    color: #C1B696;
+} 
+
+/*BANNER-EXPO*/
+.container-expo {
+  
+    padding-bottom: 5%;
+   margin-left: 10%;
+   margin-top: 3%;
+   background-color: blanchedalmond;
+  
+   transition: 1.5s;
+   width: 30%;
+
+}
+.banner img {
+    
+    height: 110%;
+    width: 130%;
+}
+.container-expo:hover{
+    width: 80%;
+
+}
+
+
+.container-expo .p {
+    padding-left: 30%;
+ }
+/*TEXT_EXPO*/
+.paragrafo {
+   
+    text-align: center;
+}
+#info {
+    color: black;
+}
+
+
+#btn-expo {
+    
+   
+    font-size: 2rem;
+    color: white;
+    background-color: black;
+    margin-top: 10%;
+    margin-left: 10%;
+
+   
+}
+
+/*ANIMATION-BANNER-EXPO*/
+ .container-expo:hover .container_anim {
+    width: 400px;
+    height: 500px;
+    margin-left: 30%;
+    margin-top: 1%;
+    margin-bottom: 40%;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-name: muda_imagem;
+    animation-timing-function:steps(1)
+}
+@keyframes muda_imagem {
+    0% { background-image: url("../Imagens/pintura1c.jpg");}
+    20% { background-image: url("../Imagens/pintura2c.jpg");}
+    40% { background-image: url("../Imagens/pintura3c.jpg");}
+    60% { background-image: url("../Imagens/pintura4c.jpg");}
+    80% { background-image: url("../Imagens/pintura5c.jpg");}
+    100% { background-image: url("../Imagens/pintura6c.jpg");}
+}
+
+/*NEWS*/
+.container-expo-news {
+    
+    margin-bottom: 40%;
+    margin-right: 5%;
+    
+}
+.container-expo-news img {
+   
+    height: 70%;
+    width: 70%;
+   justify-content: center;
+    margin-left: 15%;
+    margin-top: 10%;
+   
+}
+.container-expo-news h3 {
+    color: black;
+    text-align: center;
+
+}
+.container-expo-news h3:hover {
+  color:  #C1B696 ; 
+}
+.container-expo-news h2 {
+    text-align: center;
+    background-color: black;
+}
+.container-expo-news p {
+    text-align: center;
+    font-size: 0.8rem;
+    margin: 3%;
+}
+#news {
+    background-color: blanchedalmond;
+}
+ h3, h2 {
+    color: blanchedalmond;
+}
+#news1 {
+    border: solid black;
+}
+#news2 {
+    border: solid black;
+}
+/* GALLERY */
+.container-acervo {
+    padding-bottom: 300px;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin: 10%;
+    background-color: blanchedalmond;
+
+}
+
+
+#img1 {
+    background-image: url('../Imagens/img1.jpg');
+}
+
+#img2 {
+    background-image: url('../Imagens/PinturaBarroca.jpg');
+}
+
+#img3 {
+    background-image: url('../Imagens/PorcelanaBarroca5.jpg');
+}
+
+#img4 {
+    background-image: url('../Imagens/DesenhoBarroco2.jpg');
+}
+#img5 {
+    background-image: url('../Imagens/livrobarroco.jpg');
+}
+#img6 {
+    background-image: url('../Imagens/AntiguidadeBarrocab.jpg');
+}
+
+.container-acervo-imagens {
+    height: 300px;
+    width: 550px;
+  transition: 1s, 2s;
+ 
+}
+.container-acervo-imagens:hover {
+    transform: scale(0.9);
+}
+#acervo-title{
+    text-align: center;
+    color: black;
+   margin: 5%;
+   padding-top: 20px;
+ }
+
+.container-acervo h3 {
+    padding-top: 5%;
+    text-align: center;
+    color: black;
+}
+.btn {
+    color: white;
+    background-color: black;
+}
+/*GALLERY TEXT */ 
+.col-12  {
+    margin-bottom: 5%;
+    }
+
+
+/*FOOTER*/ 
+
+.container-footer {
+    background-color: blanchedalmond;
+    text-align: center;
+    color: black;
+    margin-left: 10%;
+    margin-right: 10%;
+
+
+}
+
+.container-footer h3 {
+    color: black;
+    
+}
+.bi.bi-facebook {
+    color: black;
+   font-size: 30px;
+   
+}
+
+.bi.bi-instagram {
+    color: black;
+   font-size: 30px;
+   
+
+}
+.bi.bi-twitter {
+    color: black;
+   font-size: 30px;
+   
+    
+}
+
+.autoria {
+    text-align: center;
+}
+
