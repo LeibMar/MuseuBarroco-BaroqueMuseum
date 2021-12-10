@@ -272,7 +272,13 @@ a {
 .autoria {
     text-align: center;
 }
-@media (min-width: 768px) {
+@media (min-width: 1025px) {
+    .container-expo:hover .container_anim {
+    height: 300px;
+    width: 550px;}
+}
+
+@media (min-width: 728px) {
 
 
 .container-acervo-imagens {
@@ -298,8 +304,8 @@ a {
     transition: 1s, 2s;}
     
 .container-expo:hover .container_anim {
-    width: 200px;
-    height: 250px;
+    width: 0%;
+    height: 0%;
             
         }
     
@@ -311,7 +317,7 @@ a {
        
 
 
-/BANNER-EXPO/
+/*BANNER-EXPO*/
 
 .col-10 {
     width: 60%;
@@ -330,7 +336,7 @@ a {
     padding-left: 30%;
     font-size: 0.5rem;
  }
-/TEXT_EXPO/
+/*TEXT_EXPO*/
 
 .paragrafo {
    
@@ -348,7 +354,7 @@ a {
    
 }
 
- /NEWS/
+ /*NEWS*/
 
  .container-expo-news {
     
@@ -372,7 +378,7 @@ font-size: 1rem;
     margin: 3%;
 }
 
-/ACERVO/
+/*ACERVO*/
 
 .container-acervo-imagens {
     margin-left: 5%;
@@ -382,7 +388,7 @@ font-size: 1rem;
     margin-left: 5%;
 }
 
-/FOOTER/
+/*FOOTER*/
 
 .col-1 {
     margin-right: 5%;
