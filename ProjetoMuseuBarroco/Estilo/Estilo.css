@@ -272,4 +272,121 @@ a {
 .autoria {
     text-align: center;
 }
+@media (min-width: 768px) {
 
+
+.container-acervo-imagens {
+      width: 90%;
+      transition: 1s, 2s;}
+
+.container-expo:hover .container_anim {
+        width: 300px;
+        height: 400px;
+        
+    }
+
+#navbar a {
+    width: 60px;
+        
+    }
+    }
+
+    @media (max-width: 576px) {
+
+.container-acervo-imagens {
+    width: 90%;
+    transition: 1s, 2s;}
+    
+.container-expo:hover .container_anim {
+    width: 200px;
+    height: 250px;
+            
+        }
+    
+#navbar a {
+    width: 0;
+    margin-right: 50%;
+            
+        }
+       
+
+
+/BANNER-EXPO/
+
+.col-10 {
+    width: 60%;
+}
+.banner img {
+    
+    height: 70%;
+    width: 100%;
+}
+
+.container-expo {
+    width: 90%;
+}
+
+.container-expo .p {
+    padding-left: 30%;
+    font-size: 0.5rem;
+ }
+/TEXT_EXPO/
+
+.paragrafo {
+   
+    text-align: center;
+    font-size: 0.8rem;
+    
+}
+#info {
+    color: black;
+}
+
+#btn-expo {
+    
+    margin-left: 5%;
+   
+}
+
+ /NEWS/
+
+ .container-expo-news {
+    
+   
+    width: 100%;
+}
+
+.col-2 {
+    width: 40%;
+}
+.container-expo-news h3 {
+    
+font-size: 1rem;
+}
+.container-expo-news h2 {
+    font-size: 1rem;
+}
+.container-expo-news p {
+    
+    font-size: 0.8rem;
+    margin: 3%;
+}
+
+/ACERVO/
+
+.container-acervo-imagens {
+    margin-left: 5%;
+}
+
+.btn {
+    margin-left: 5%;
+}
+
+/FOOTER/
+
+.col-1 {
+    margin-right: 5%;
+}
+  
+         
+        }
