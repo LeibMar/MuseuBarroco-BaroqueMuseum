@@ -276,7 +276,7 @@ a {
 /*MEDIA QUERIES */
 
 @media (max-width: 1366px) {
- 
+ /*BANNER-EXPO*/
     .container-expo:hover .container_anim {
         width: 300px;
         height: 350px;
@@ -285,13 +285,14 @@ a {
         margin-bottom: 40%;
         
     }
+    /*ACERVO*/
     .container-acervo-imagens {
         width: 100%;
       
 }
 
 @media   (max-width: 1200px){
-
+ /*BANNER-EXPO*/
     .col-10 {
         width: 60%;
     }
