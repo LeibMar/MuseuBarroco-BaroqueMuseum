@@ -285,6 +285,8 @@ a {
         margin-bottom: 40%;
         
     }
+     
+    
     /*ACERVO*/
     .container-acervo-imagens {
         width: 100%;
@@ -300,7 +302,7 @@ a {
         width: 40%;
     }
     .container-expo {
-        width: 70%;
+        width: 50%;
     }
 
     #navbar a {
